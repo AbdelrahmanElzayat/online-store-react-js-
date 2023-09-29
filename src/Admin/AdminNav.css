@@ -1,0 +1,144 @@
+.admin_header{
+    width: 100%;
+    background-color: #111;
+    padding: 10px 0;
+    /* overflow: hidden; */
+}
+.admin_nav-top{
+    width: 100%;
+    padding: 7px;
+    position: relative;
+}
+.admin_nav-wrapper-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3rem;
+    /* color: white; */
+
+}
+.nav_top-right img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+}
+.nav_top-right{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.search-box input:focus{
+    outline: none;
+}
+.searchIcon{
+    display: none;
+}
+.nav_top-right span i{
+    color: whitesmoke;
+    cursor: pointer;
+}
+.logo h2{
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+
+.admin_menu{
+    width: 100%;
+    min-height: 70px;
+    line-height: 70px;
+    background-color: #999;
+    /* overflow: hidden; */
+}
+.admin_navigation{
+    text-align: center;
+}
+.admin_navigation .admin_menu_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    position: relative;
+}
+.admin_menu_item a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    /* background-color: whitesmoke; */
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.admin_menu_item a:hover{
+    color: #111 ;
+}
+.active-menu-item{
+    background-color: whitesmoke;
+}
+
+.profile_actions_Admin{
+    position: absolute;
+    top: 119%;
+    right: 8%;
+    width: 150px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--card-bg-01);
+    line-height: 30px;
+    cursor: pointer;
+    display: none;
+}
+.show_profile_actions_Admin{
+    display: block;
+}
+.profile_actions_Admin span{
+    text-decoration: none;
+    color: #111;
+    transition: .3s;
+
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+@media(max-width:768px){
+    .search-box{
+        display: none;
+        justify-content: center;
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        z-index: 1000;
+    }
+    .search-box_Active{
+        display: block;
+    }
+    .searchIcon{
+        display: block;
+        color: #fff;
+        cursor: pointer;
+    }
+    .admin_menu_item a{
+        font-weight: 700;
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,17 @@
+
+.or_box{
+    padding: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.or_box h5{
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.or_box span{
+    color: #222;
+    font-size: 2rem;
+    font-weight: 600;
+}

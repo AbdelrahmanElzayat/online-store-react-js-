@@ -1,0 +1,7 @@
+.notFound_Section{
+    min-height: calc(100vh - 200px);
+}
+.notFound_Section img{
+    width: 100%;
+    height: 100%;
+}

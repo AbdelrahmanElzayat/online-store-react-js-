@@ -1,0 +1,154 @@
+.Hero_Section{
+    min-height: 100vh;
+    background-color: #111;
+    padding-top: 64px;
+    color: white;
+    overflow: hidden;
+}
+.hero_content{
+    width: 100%;
+    position: relative;
+    top: 60%;
+    transform: translateY(-30%);
+}
+.Hero_Section h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.Hero_Section p{
+    color: #777;
+    line-height: 1.6;
+}
+.Hero_Section p:nth-child(1){
+    font-weight: 500;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+.hero_img{
+    width: 100%;
+    position: relative;
+    top: 60%;
+    transform: translateY(-30%);
+}
+.hero_img img{
+    width: 100%;
+    object-fit: contain;
+}
+.buy_btn{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.buy_btn a{
+    display: block;
+    width: 100%;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.buy_btn a:hover{
+    color: #222;
+}
+
+.trending_products{
+    background-color: #f4f4f4;
+}
+
+.section_title{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.countDown{
+    background-color: #111;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+
+.countDown img{
+    width: 70%;
+    height: 70%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.Popular{
+    background-color: #f4f4f4;
+}
+
+@media(max-width:992px){
+    .hero_content{
+        /* width: 100% !important; */
+        top: 60%;
+        transform: translateY(-30%);
+    }
+    .hero_img{
+        width: 100% !important;
+        top: 60%;
+        transform: translateY(-30%);
+    }
+    .hero_content h2{
+        font-size: 2rem;
+    }
+    .section_title{
+        font-size: 1.7rem;
+    }
+    .countDown .countInfo{
+        text-align: center;
+    }
+    .countDown .countInfo h4{
+        font-size: 1.1rem !important;
+    }
+    .countDown .countInfo h3{
+        font-size: 1.3rem !important;
+    }
+    .count-col{
+        text-align: center;
+    }
+    .countDown img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-90%);
+    }
+}
+
+@media(max-width:767px){
+    .hero_content{
+        width: 100% !important;
+        top: 40% !important;
+    }
+    .hero_content h2{
+        font-size: 1.6rem;
+    }
+    .hero_content p{
+        font-size: .9rem;
+    }
+    .hero_content .buy_btn{
+        font-size: .9rem;
+    }
+    .hero_img{
+        top: 40% !important;
+    }
+    .buy_btn{
+        padding: 5px 20px;
+        font-size: .8rem;
+    }
+}
+@media(max-width:576px){
+    .hero_content{
+        width: 100% !important;
+        position: relative;
+        top: 80%;
+    }
+    .buy_btn{
+        padding: 5px 10px;
+        font-size: .7rem;
+    }
+}

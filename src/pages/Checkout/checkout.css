@@ -1,0 +1,24 @@
+.checkout_cart{
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 5px;
+}
+.checkout_cart h6, .checkout_cart h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkout_cart h6{
+    margin-bottom: 20px;
+}
+.checkout_cart h4{
+    border-top: 1px solid rgba(221, 221, 221, .253);
+    padding-top: 20px;
+}
+.buy_btn{
+    color: #222;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+}

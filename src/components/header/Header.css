@@ -1,0 +1,73 @@
+.navBar{
+    background-color: #111;
+    height: 64px !important;
+    border-bottom: 2px solid #222;
+}
+ .navCollapse {
+    background-color: #111 !important;
+}
+/*
+.navCollapse a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #111 !important;
+} */
+.cart{
+    position: relative;
+}
+.cartNo{
+    position: absolute;
+    top: 10px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    padding: 0;
+    color: white;
+    font-size: 10px;
+    background-color: #ff5b5b;
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.hearti{
+    font-size: 20px;
+}
+.userI{
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 9;
+}
+.userI img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+
+}
+.profile_actions{
+    position: absolute;
+    top: 100%;
+    /* right: 0; */
+    width: 150px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--card-bg-01);
+    line-height: 30px;
+    cursor: pointer;
+    display: none;
+}
+.show_profile_actions{
+    display: block;
+}
+.profile_actions a{
+    text-decoration: none;
+    color: #111;
+    transition: .3s;
+}

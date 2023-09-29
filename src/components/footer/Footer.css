@@ -1,0 +1,33 @@
+.footer{
+    padding-top: 64px;
+    padding-bottom: 20px;
+    background-color: #111;
+    color: #fff;
+}
+.footer_text{
+    line-height: 1.7;
+    color: #777;
+    max-width: 80%;
+}
+.footer_links .ul .li{
+    background: transparent !important;
+}
+.footer_links .ul .li a{
+    color: #777;
+    text-decoration: none;
+}
+.links_title{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.footer_contact i{
+    color: #777;
+    position: relative;
+    top: -7px;
+}
+.copy p{
+    color: (255,255,255,.7);
+    font-size: 1rem;
+    margin-top: 40px;
+}

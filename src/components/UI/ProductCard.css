@@ -1,0 +1,31 @@
+.cardTitle a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+.cardTitle a:hover{
+    color: inherit;
+}
+.price{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.cardImg{
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    max-width: 100%;
+}
+.addCard{
+    border: none !important;
+}
+@media(max-width:992px){
+    .cardTitle a{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:767px){
+    .cardTitle a{
+        font-size: 1.1rem;
+    }
+}
